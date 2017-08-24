@@ -30,23 +30,23 @@ public class CustomOnItemSelectedListener implements OnItemSelectedListener {
                         break;
                     case "Yes. Excellent(750 &amp; above)":
                         makeToast(parent,pos);
-                        MainActivity.firstStatus = CreditEntry.EXCELLENT;
+                        MainActivity.scoreStatus = CreditEntry.EXCELLENT;
                         break;
                     case "Yes. Good (700-749)":
                         makeToast(parent,pos);
-                        MainActivity.firstStatus = CreditEntry.GOOD;
+                        MainActivity.scoreStatus = CreditEntry.GOOD;
                         break;
                     case "Yes. Fair (650-699)":
                         makeToast(parent,pos);
-                        MainActivity.firstStatus = CreditEntry.FAIR;
+                        MainActivity.scoreStatus = CreditEntry.FAIR;
                         break;
                     case "Yes. Poor (649 &amp; below)":
                         makeToast(parent,pos);
-                        MainActivity.firstStatus = CreditEntry.POOR;
+                        MainActivity.scoreStatus = CreditEntry.POOR;
                         break;
                     case "No.":
                         makeToast(parent,pos);
-                        MainActivity.firstStatus = CreditEntry.DONTKNOW;
+                        MainActivity.scoreStatus = CreditEntry.DONTKNOW;
                         break;
                 }
             case R.id.purpose_spinner:
@@ -55,12 +55,15 @@ public class CustomOnItemSelectedListener implements OnItemSelectedListener {
                         break;
                     case "Credit Building":
                         makeToast(parent,pos);
+                        MainActivity.purposeStatus = CreditEntry.CREDITBUILD;
                         break;
                     case "Reward/Benefits":
                         makeToast(parent,pos);
+                        MainActivity.purposeStatus = CreditEntry.REWARDS;
                         break;
                     case "No specific purpose":
                         makeToast(parent,pos);
+                        MainActivity.purposeStatus = CreditEntry.NOPURPOSE;
                         break;
                 }
         }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Your First Card</string>
+
+    <string-array name="yes_or_no">
+        <item>SELECT</item>
+        <item>Yes.</item>
+        <item>No.</item>
+    </string-array>
+
+    <string-array name="credit_score_array">
+        <item>SELECT</item>
+        <item>Yes. Excellent(750 &amp; above)</item>
+        <item>Yes. Good (700-749)</item>
+        <item>Yes. Fair (650-699)</item>
+        <item>Yes. Poor (649 &amp; below)</item>
+        <item>No.</item>
+    </string-array>
+
+    <string-array name="purpose_array">
+        <item>SELECT</item>
+        <item>Credit Building</item>
+        <item>Reward/Benefits</item>
+        <item>No specific purpose</item>
+    </string-array>
+
+</resources>

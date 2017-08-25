@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Your First Card</string>
+    <string name="app_name">Your First Swipe</string>
 
     <string-array name="yes_or_no">
         <item>SELECT</item>
@@ -10,7 +10,7 @@
 
     <string-array name="credit_score_array">
         <item>SELECT</item>
-        <item>Yes. Excellent(750 &amp; above)</item>
+        <item>Yes. Excellent (750 &amp; above)</item>
         <item>Yes. Good (700-749)</item>
         <item>Yes. Fair (650-699)</item>
         <item>Yes. Poor (649 &amp; below)</item>

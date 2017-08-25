@@ -28,12 +28,14 @@
                 android:id="@+id/first_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center" />/>
+                android:gravity="center" />
 
             <CheckBox
+                android:id="@+id/first_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:clickable="false"/>
+                android:clickable="false"
+                android:checked="false"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -63,9 +65,11 @@
                 android:gravity="center" />/>
 
             <CheckBox
+                android:id="@+id/score_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:clickable="false"/>
+                android:clickable="false"
+                android:checked="false"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -95,9 +99,11 @@
                 android:gravity="center" />/>
 
             <CheckBox
+                android:id="@+id/purpose_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:clickable="false"/>
+                android:clickable="false"
+                android:checked="false"/>
 
         </LinearLayout>
 

@@ -35,9 +35,6 @@ public final class CreditContract {
         public final static int REWARDS = 2;
         public final static int NOPURPOSE = 3;
 
-
-
-
         public static final Uri CONTENT_URI = Uri.withAppendedPath(BASE_CONTENT_URI, PATH_PETS);
 
     }
